@@ -11,14 +11,19 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
     "@google/generative-ai": "^0.21.0",
     "@types/express": "^5.0.0",
+    "deepinfra": "^2.0.2",
     "dotenv": "^16.4.7",
     "eventsource": "^3.0.2",
     "express": "^4.21.2",
+    "llamaai": "^1.0.4",
+    "openai": "^4.77.0",
     "readline": "^1.3.0"
   },
   "devDependencies": {
+    "@gradio/client": "^1.8.0",
     "@types/node": "^22.10.2",
     "@types/nodemon": "^1.19.6",
     "nodemon": "^3.1.9"
